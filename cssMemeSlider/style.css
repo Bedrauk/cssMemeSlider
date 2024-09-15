@@ -99,3 +99,21 @@ figcaption {
 
 
 
+@media (max-width: 720px) {
+  .slider-container {
+    height: 300px;
+  }
+  .slides {
+    height: 90%;
+  }
+
+  figcaption {
+    text-align: center;
+    font-size: 1em;
+  }
+  .controls {
+    position: absolute;
+    bottom: 10px;
+    right: 30%;
+  }
+}
